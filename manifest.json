@@ -1,0 +1,19 @@
+{
+  "description": "به کمک این افزونه پیام های چت جی پی رو به زبان فارسی درست مشاهده میکنید",
+  "manifest_version": 2,
+  "name": "ChatGPT-rtl",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "icons": {
+    "48": "icons/rtlgpt.png"
+  },
+  "web_accessible_resources": [
+    "css/style.css"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.poe.com/*", "*://*.chatbot.theb.ai/*", "*://gpt.com/*", "*://chat.gpt.com/*", "*://chat.openai.com/*"],
+      "js": ["ChatGPT-rtl.js"]
+    }
+  ]
+}
