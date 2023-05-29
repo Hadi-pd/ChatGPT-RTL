@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "ChatGPT-rtl",
   "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "homepage_url": "https://github.com/Hadi-pd/ChatGPT-RTL",
   "icons": {
     "48": "icons/rtlgpt.png"
   },
