@@ -1,5 +1,5 @@
 const link = document.createElement("link");
-link.href = browser.extension.getURL("css/style.css");
+link.href = browser.runtime.getURL("css/style.css");
 link.rel = "stylesheet";
 document.head.appendChild(link);
 
